@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>공공조달 데이터 가공 SYSTEM</title>
+    <link rel="stylesheet" href="/style.css">
+    <base href="/">
+</head>
+
+<body>
+    <div class="graph__01">
+        <img src="/img/graph.png" alt="graph">
+    </div>
+    <div class="pie__01">
+        <img src="/img/pie_1.png" alt="pie">
+    </div>
+
+    <div class="pie__02">
+        <img src="/img/pie2.png" alt="pie2">
+    </div>
+    
+        <div class="background__image"> </div>
+
+
+        <app-root ng-version="9.1.3">
+            <router-outlet></router-outlet>
+            <app-login _nghost-erh-c363="">
+                <div _ngcontent-erh-c363="" class="login-page animate">
+                    <div _ngcontent-erh-c363="" class="login"><br _ngcontent-erh-c363=""><br
+                            _ngcontent-erh-c363=""><input _ngcontent-erh-c363="" id="userId" type="text"
+                            placeholder="UserId" name="userCode" autocomplete="off" autofocus=""
+                            ng-reflect-name="userCode" class="ng-pristine ng-valid ng-touched"><input
+                            _ngcontent-erh-c363="" id="userPw" type="password" placeholder="Password" name="userPw"
+                            autocomplete="off" ng-reflect-name="userPw"
+                            class="ng-untouched ng-pristine ng-valid"><button _ngcontent-erh-c363=""
+                            class="btn btn-primary btn-block btn-large"
+                            style="display: flex; justify-content: center;"><i _ngcontent-erh-c363="" id="spin"
+                                class="fas fa-spinner fa-spin"
+                                style="visibility: hidden; padding: 3px; margin-left: 5px;"></i><i
+                                _ngcontent-erh-c363="" id="check" class="fas fa-check"
+                                style="display: none; padding: 3px; margin-left: 25px;"></i><label
+                                _ngcontent-erh-c363="" id="btnLabel" style="margin-right: 25px;"> 로그인 </label></button>
+                    </div>
+                </div>
+            </app-login>
+        </app-root>
+
+</body>
+
+</html>
